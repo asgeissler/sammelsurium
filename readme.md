@@ -2,6 +2,17 @@
 
 *Sammelsurium* {n} smorgasbord [fig.] [diverse collection of things]
 
+# R installation(R_conda.yml, R_install-packages.R)
+
+List of packages that I like to use in R either via R's own package manager, or
+for use in conda/mama:
+
+        mamba env create --file R_conda.yml
+
+The packages installed by both approaches are the same, see:
+
+        diff -y <(grep ' *-' R_conda.yml | sed 's,^ *- [rbioconductor]*-,,g' | sort ) <( grep "^ *'" R_install-packages.R | sed "s,[' ,],,g" | tr '[:upper:]' '[:lower:]' | sort )
+
 ## R_rabbit-duck
 
 Data as dataframe for the infamous rabbit-duck illusion in scatter plots with some additional dataset of equal mean, variance, and correlation:
