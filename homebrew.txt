@@ -1,12 +1,24 @@
-# List of various tools I use from homebrew
+# List of various tools from homebrew
 
-# accelerated parallel downloading
+# Nice to have on a Mac
+firefox
+iterm2
+rectangle
+fuse-t
+fuse-t-sshfs
+github
+mac-mouse-fix
+mambaforge
+microsoft-teams
+signal
+zotero
+zoom
+xquartz
+
+# helpers for downloading from the net
 axel
 curl
 wget
-
-# better alternative to less for quickly viewing code files
-bat
 
 # For adding light welcoming messages
 cowsay
@@ -16,13 +28,23 @@ fortune
 diff-pdf
 emacs
 icdiff
+mactex
+omnidisksweeper
+pdfsam-basic
 tree
 vim
+yed
 
 # For coding
+bat
+font-fira-sans
+font-fira-code
 openjdk
 pandoc
+quarto
 r
+rstudio
+visual-studio-code
 
 # Needed for various dependencies of R packages that I like
 coin-or-tools/coinor/symphony
