@@ -40,3 +40,11 @@ List of packages that I like to use in a python:
         mamba activate pie
         python3
         ...
+
+
+# Other 
+
+The workflow manager [Snakemake](https://snakemake.readthedocs.io/en/stable/) is
+fairly frequently used, so I like to have it in the base mamba environment:
+
+        mamba install -c bioconda -n base snakemake
