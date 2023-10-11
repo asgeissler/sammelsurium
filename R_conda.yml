@@ -11,6 +11,7 @@ dependencies:
   - r-conflicted
   - r-devtools
   - r-essentials >= 3.6.0
+  - r-languageserver
   - r-furrr
   - r-roxygen2
   - r-tidyverse
@@ -47,6 +48,7 @@ dependencies:
   - r-blogdown
   - r-bookdown
   - r-kableextra
+  - r-systemfonts
   - r-xaringan 
   - pandoc
   - quarto
@@ -92,6 +94,8 @@ dependencies:
   #
   # Some gadgets
   - r-dbplyr
+  - r-formatr
+  - r-lintr
   - r-multidplyr
   - r-microbenchmark
   - r-profmem
