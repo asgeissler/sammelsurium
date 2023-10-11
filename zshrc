@@ -44,6 +44,63 @@ HOMEBREW_GITHUB_API_TOKEN=PRIVATE_USE_YOUR_OWN_HERE
 alias ll='ls -l -G -h'
 alias iso='date +%Y_%m_%d'
 
+##############################################################################
+# SSH setup for university/work 
+
+# open ssh tunnel, local port is 8080
+tunnelCMD="ssh -N -f -L 8080:MYURL.com:22 USER@MYURL.com"
+alias tunnelCMD="$tunnelCMD"
+
+# SSH connect to server, use tunnel if available
+function server() {
+    # must be function to work with osascript
+    if  pgrep -f -x "$tunnelCMD" > /dev/null 2>&1 ; then
+        ssh -Y -p 8080 USER@localhost
+    else
+        ssh -Y USER@MYURL.com
+    fi
+}
+
+# helper to connect, setup mounts, etc
+# Memo: Setup via MacOS a network location profile 'work' that uses
+# localhost:8787 as a SOCKS proxy, then it is easier to access web resource
+# from behind the firewall.
+function work() {
+    # step 1, universal tunnel
+    tunnelCMD
+    # step 2, start proxy, all over the tunnel
+    ssh -D 8787 -p 8080 -f -N USER@localhost
+    networksetup -switchtolocation work
+    # 2, mount stuff
+    sshfs -o volname=project -p 8080 \
+        -o uid=$UID -o gid=$GID \
+        USER@localhost:/path/on/server/to/projects ~/local-path/projects
+    # 4 open a terminal window with an SSH connection to the server
+    # and a split in to prevent sleeping of computer (to keep connection open)
+    osascript << EOF
+tell application "iTerm2"
+    create window with default profile command "pmset noidle"
+    tell current session of current window
+        split horizontally with default profile command "zsh -i -c 'server'"
+    end tell
+end tell
+EOF
+    # 5 open finder window for project
+    open ~/local-path/projects
+}
+
+# helper to close down all connections/mounts, and go to default network layout
+function goodbye() {
+    unmount ~/local-path/projects
+    killall ssh
+    killall pmset
+    networksetup -switchtolocation default
+
+    echo 'Good Bye.'
+}
+
+
+##############################################################################
 #############################################################################
 # Various paths and variables to keep homebrew installed software happy
 
