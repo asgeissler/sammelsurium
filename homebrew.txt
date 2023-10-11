@@ -1,0 +1,42 @@
+# List of various tools I use from homebrew
+
+# accelerated parallel downloading
+axel
+curl
+wget
+
+# better alternative to less for quickly viewing code files
+bat
+
+# For adding light welcoming messages
+cowsay
+fortune
+
+# Handy tools for editing and working with documents
+diff-pdf
+emacs
+icdiff
+tree
+vim
+
+# For coding
+openjdk
+pandoc
+r
+
+# Needed for various dependencies of R packages that I like
+coin-or-tools/coinor/symphony
+curlcpp
+curlpp
+fmt
+fribidi
+guile
+imagemagick
+libgit2
+libsolv
+libxml2
+llvm
+node
+reproc
+xml2
+yaml-cpp
