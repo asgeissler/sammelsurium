@@ -1,0 +1,51 @@
+\documentclass[english]{scrartcl}
+
+% proper input config
+\usepackage[T1]{fontenc}
+\usepackage[utf8x]{inputenc}
+% ensure A4 
+\usepackage{a4wide}
+% Show some simple headings
+\pagestyle{headings}
+% Force line breaks to keep proper textwidth.
+\setlength\emergencystretch{\hsize}
+% use a proper font
+\usepackage{charter}
+% add language support
+\usepackage[main=english]{babel}
+
+% color and graphics
+\usepackage{graphicx}
+\usepackage[table,svgnames]{xcolor}
+% Configure tables
+\usepackage{booktabs}
+
+% Use small figure captions and allow subfigures
+\usepackage[margin=10pt,font=small,labelfont=bf]{caption}
+\usepackage{subcaption}
+
+% Allow rotated figures/tables
+\usepackage{rotating}
+
+% Math stuff
+\usepackage{amsmath,amssymb}
+% Citation settings
+\usepackage{csquotes}
+\usepackage[backend=biber,citestyle=nature,isbn=false,doi=false]{biblatex}
+\addbibresource{MyLibrary.bib}
+
+% make links clickable (load after biblatex)
+\usepackage{hyperref}
+
+\title{Title \\ Sub-Title}
+\author{Author}
+\date{\today}
+
+\begin{document}
+\maketitle
+
+
+\printbibliography
+
+\end{document}
+

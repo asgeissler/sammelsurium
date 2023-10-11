@@ -32,6 +32,11 @@ Data as dataframe for the infamous rabbit-duck illusion in scatter plots with so
         27	2	rabbit-duck
         ...
 
+
+# R_slides.Rmd
+
+Template for making slides in R, based on a template by [Claus Ekstrøm](https://publichealth.ku.dk/staff/?pure=en/persons/114029).
+
 # Python installation (python_conda.yml)
 
 List of packages that I like to use in a python:
@@ -41,6 +46,11 @@ List of packages that I like to use in a python:
         python3
         ...
 
+# LaTeX_report.tex
+
+As the name suggest a simple template for LaTeX based reports.
+
+
 
 # Other 
 
@@ -48,3 +58,6 @@ The workflow manager [Snakemake](https://snakemake.readthedocs.io/en/stable/) is
 fairly frequently used, so I like to have it in the base mamba environment:
 
         mamba install -c bioconda -n base snakemake
+
+Copy `vimrc` and `zshrc` as dot-files to `$HOME` and install dependencies, as
+listed in the files.
