@@ -1,0 +1,19 @@
+
+name: pie
+channels:
+  - conda-forge
+  - bioconda
+  - defaults
+dependencies:
+  - biopython
+  - matplotlib
+  - seaborn
+  - pandas
+  - numpy
+  # notebooks
+  - jupyterlab
+  - ipykernel
+  # AI stuff
+  - keras
+  - scipy
+  - scikit-learn

@@ -31,3 +31,12 @@ Data as dataframe for the infamous rabbit-duck illusion in scatter plots with so
         26	2	rabbit-duck
         27	2	rabbit-duck
         ...
+
+# Python installation (python_conda.yml)
+
+List of packages that I like to use in a python:
+
+        mamba env create --file python_conda.yml
+        mamba activate pie
+        python3
+        ...
