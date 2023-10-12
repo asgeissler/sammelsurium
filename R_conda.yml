@@ -10,7 +10,7 @@ dependencies:
   - r-biocmanager
   - r-conflicted
   - r-devtools
-  - r-essentials >= 3.6.0
+  - r-essentials >= 4.3.0
   - r-languageserver
   - r-furrr
   - r-roxygen2
