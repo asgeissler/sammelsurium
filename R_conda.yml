@@ -70,7 +70,6 @@ dependencies:
   - bioconductor-deseq2
   - bioconductor-edger
   - bioconductor-fedup
-  - bioconductor-fdrtool
   - bioconductor-fgsea
   - bioconductor-pathview
   - bioconductor-clusterprofiler

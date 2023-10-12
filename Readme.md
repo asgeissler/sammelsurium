@@ -13,6 +13,15 @@ The packages installed by both approaches are the same, see:
 
         diff -y <(grep ' *-' R_conda.yml | sed 's,^ *- [rbioconductor]*-,,g' | sort ) <( grep "^ *'" R_install-packages.R | sed "s,[' ,],,g" | tr '[:upper:]' '[:lower:]' | sort )
 
+### Mac OS Silicon
+
+State October 2023, bioconda does not yet support the silicon (M1/M2) CPU
+architecture. However, the conda environment can still be used with:
+
+        CONDA_SUBDIR=osx-64 mamba env create --file R_conda.yml
+        mamba activate arr
+        conda config --env --set subdir osx-64
+
 ## R_rabbit-duck
 
 Data as dataframe for the infamous rabbit-duck illusion in scatter plots with some additional dataset of equal mean, variance, and correlation:
