@@ -2,6 +2,7 @@
 "
 " TODO on new installations: Install Vundle with
 " git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
+" Afterwards run ":VundleInstall" in vim to get the plugins installed
 "
 " Summary of config:
 " - custom leader ','
