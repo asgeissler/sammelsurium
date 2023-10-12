@@ -113,30 +113,30 @@ export PATH="/usr/local/sbin:$PATH"
 # icu4c
 export PATH="/usr/local/opt/icu4c/bin:$PATH"
 export PATH="/usr/local/opt/icu4c/sbin:$PATH"
-export LDFLAGS="-L/usr/local/opt/icu4c/lib"
-export CPPFLAGS="-I/usr/local/opt/icu4c/include"
-export PKG_CONFIG_PATH="/usr/local/opt/icu4c/lib/pkgconfig"
+export LDFLAGS="-L/usr/local/opt/icu4c/lib:$LDFLAGS"
+export CPPFLAGS="-I/usr/local/opt/icu4c/include:$CPPFLAGS"
+export PKG_CONFIG_PATH="/usr/local/opt/icu4c/lib/pkgconfig:$PKG_CONFIG_PATH"
 
 # LLVM
 export PATH="/usr/local/opt/llvm/bin:$PATH"
-export LDFLAGS="-L/usr/local/opt/llvm/lib"
-export CPPFLAGS="-I/usr/local/opt/llvm/include"
+export LDFLAGS="-L/usr/local/opt/llvm/lib:$LDFLAGS"
+export CPPFLAGS="-I/usr/local/opt/llvm/include:$CPPFLAGS"
 
 # XML2
 export PATH="/usr/local/opt/libxml2/bin:$PATH"
-export LDFLAGS="-L/usr/local/opt/libxml2/lib"
-export CPPFLAGS="-I/usr/local/opt/libxml2/include"
-export PKG_CONFIG_PATH="/usr/local/opt/libxml2/lib/pkgconfig"
+export LDFLAGS="-L/usr/local/opt/libxml2/lib:$LDFLAGS"
+export CPPFLAGS="-I/usr/local/opt/libxml2/include:$CPPFLAGS"
+export PKG_CONFIG_PATH="/usr/local/opt/libxml2/lib/pkgconfig:$PKG_CONFIG_PATH"
 
 # CURL
 export PATH="/usr/local/opt/curl/bin:$PATH"
-export LDFLAGS="-L/usr/local/opt/curl/lib"
-export CPPFLAGS="-I/usr/local/opt/curl/include"
-export PKG_CONFIG_PATH="/usr/local/opt/curl/lib/pkgconfig"
+export LDFLAGS="-L/usr/local/opt/curl/lib:$LDFLAGS"
+export CPPFLAGS="-I/usr/local/opt/curl/include:$CPPFLAGS"
+export PKG_CONFIG_PATH="/usr/local/opt/curl/lib/pkgconfig:$PKG_CONFIG_PATH"
 
 # Java
 export PATH="/usr/local/opt/openjdk/bin:$PATH"
-export CPPFLAGS="-I/usr/local/opt/openjdk/include"
+export CPPFLAGS="-I/usr/local/opt/openjdk/include:$CPPFLAGS"
 
 
 #############################################################################
