@@ -52,6 +52,7 @@ visual-studio-code
 
 # Needed for various dependencies of R packages that I like
 #coin-or-tools/coinor/symphony
+cmake
 curlcpp
 curlpp
 fmt
@@ -64,4 +65,5 @@ libxml2
 llvm
 node
 reproc
+xml2
 yaml-cpp
