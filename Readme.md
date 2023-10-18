@@ -2,6 +2,25 @@
 
 *Sammelsurium* {n} smorgasbord [fig.] [diverse collection of things]
 
+# Homebrew
+
+Install [homebrew](https://brew.sh/) with
+
+        /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+
+        grep -v '^#' Homebrew.txt | xargs brew install
+
+Additional nice to have things that require extra traps:
+
+        # excellent font for coding
+        brew tap homebrew/cask-fonts
+        brew install font-fira-sans font-fira-code
+        # sshfs: Mounting via ssh
+        brew tap macos-fuse-t/homebrew-cask
+        brew install fuse-t fuse-t-sshfs
+
+
+
 # R installation(R_conda.yml, R_install-packages.R)
 
 List of packages that I like to use in R either via R's own package manager, or

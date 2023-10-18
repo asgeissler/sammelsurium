@@ -91,7 +91,7 @@ EOF
 
 # helper to close down all connections/mounts, and go to default network layout
 function goodbye() {
-    unmount ~/local-path/projects
+    umount ~/local-path/projects
     killall ssh
     killall pmset
     networksetup -switchtolocation default
