@@ -8,6 +8,7 @@ github
 mac-mouse-fix
 mambaforge
 microsoft-teams
+obsidian
 signal
 zotero
 zoom
