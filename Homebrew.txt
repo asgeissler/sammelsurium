@@ -27,6 +27,7 @@ fortune
 diff-pdf
 emacs
 icdiff
+languagetool
 mactex
 omnidisksweeper
 pdfsam-basic
