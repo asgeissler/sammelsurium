@@ -1,6 +1,6 @@
 # Sammelsurium
 
-*Sammelsurium* {n} smorgasbord [fig.] [diverse collection of things]
+*Sammelsurium* {noun} smorgasbord [figurative] [diverse collection of things]
 
 # Homebrew
 
