@@ -10,7 +10,7 @@ Install [homebrew](https://brew.sh/) with
 
         grep -v '^#' Homebrew.txt | xargs brew install
 
-Additional nice to have things that require extra traps:
+Additional nice to have things that require extra taps:
 
         # excellent font for coding
         brew tap homebrew/cask-fonts
