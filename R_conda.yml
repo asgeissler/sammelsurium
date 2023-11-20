@@ -81,6 +81,8 @@ dependencies:
   - bioconductor-topgo
   - r-fdrtool
   # Graphs
+  #- bioconductor-ggkegg (does not yet exist in repo)
+  - r-ggfx
   - r-tidygraph
   - r-ggraph
   - r-networkd3

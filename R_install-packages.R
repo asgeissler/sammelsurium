@@ -67,6 +67,8 @@ xs <- c(
   'topGO',
   'fdrtool',
   # Graphs
+  'ggkegg',
+  'ggfx',
   'tidygraph',
   'ggraph',
   'networkD3',
