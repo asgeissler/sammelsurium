@@ -39,6 +39,7 @@ dependencies:
   - r-patchwork
   - r-pheatmap
   - r-plotly
+  -  r-rsvg
   - r-rcolorbrewer
   - r-upsetr
   - r-venn

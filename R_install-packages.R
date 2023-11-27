@@ -33,6 +33,7 @@ xs <- c(
   'pheatmap',
   'plotly',
   'RColorBrewer',
+  'rsvg',
   'UpSetR',
   'venn',
   # For more awesome text reports

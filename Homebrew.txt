@@ -55,6 +55,7 @@ fribidi
 guile
 imagemagick
 libgit2
+librsvg
 libsolv
 libxml2
 llvm
