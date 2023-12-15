@@ -79,6 +79,10 @@ List of packages that I like to use in a python:
 As the name suggest a simple template for LaTeX based reports.
 
 
+# Feedbro-subscriptions
+
+[Feedro](https://nodetics.com/feedbro/) RSS reader subscription list of 
+various Biotech/Microbiology journals.
 
 # Other 
 
