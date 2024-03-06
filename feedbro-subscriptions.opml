@@ -16,6 +16,10 @@
             xmlUrl="https://academic.oup.com/rss/site_5143/3005.xml" htmlUrl="http://academic.oup.com/bib"/>
       <outline text="Bioinformatics Advances" title="Bioinformatics Advances Current Issue" type="rss" 
             xmlUrl="https://academic.oup.com/rss/site_6382/4105.xml" htmlUrl="http://academic.oup.com/bioinformaticsadvances"/>
+      <outline text="Current Opinion in Biotechnology" title="Current Opinion in Biotechnology" type="rss" 
+            xmlUrl="https://rss.sciencedirect.com/publication/science/09581669" htmlUrl="https://www.sciencedirect.com/journal/current-opinion-in-biotechnology"/>
+      <outline text="Food Microbiology" title="Food Microbiology" type="rss" 
+            xmlUrl="https://rss.sciencedirect.com/publication/science/07400020" htmlUrl="https://www.sciencedirect.com/journal/food-microbiology"/>
       <outline text="Frontiers in Bioinformatics" title="Frontiers in Bioinformatics | New and Recent Articles" type="rss" 
             xmlUrl="https://www.frontiersin.org/journals/bioinformatics/rss" htmlUrl="https://www.frontiersin.org/journals/bioinformatics"/>
       <outline text="Frontiers in Microbiology" title="Frontiers in Microbiology | New and Recent Articles" type="rss" 
@@ -23,7 +27,7 @@
       <outline text="GigaScience Current Issue" title="GigaScience Current Issue" type="rss" 
             xmlUrl="https://academic.oup.com/rss/site_5589/3462.xml" htmlUrl="http://academic.oup.com/gigascience"/>
       <outline text="Microbial Biotechnology" title="Microbial Biotechnology" type="rss" 
-            xmlUrl="https://ami-journals.onlinelibrary.wiley.com/feed/17517915/most-recent" htmlUrl="https://ami-journals.onlinelibrary.wiley.com/journal/17517915?af=R"/>
+            xmlUrl="https://ami-journals.onlinelibrary.wiley.com/feed/17517915/most-recent" htmlUrl="https://enviromicro-journals.onlinelibrary.wiley.com/journal/17517915?af=R"/>
       <outline text="Microbial Cell Factories" title="Most Recent Articles: Microbial Cell Factories" type="rss" 
             xmlUrl="https://microbialcellfactories.biomedcentral.com/articles/most-recent/rss.xml" htmlUrl="https://microbialcellfactories.biomedcentral.com"/>
       <outline text="Microbial Genomics" title="Microbial Genomics" type="rss" 
@@ -33,11 +37,13 @@
       <outline text="Nature Biotechnology" title="Nature Biotechnology" type="rss" 
             xmlUrl="https://www.nature.com/nbt.rss" htmlUrl="http://feeds.nature.com/nbt/rss/current"/>
       <outline text="Nature Communications - Bioinformatics" title="Nature Communications - Bioinformatics" type="rss" 
-            xmlUrl="https://www.nature.com/subjects/computational-biology-and-bioinformatics/ncomms.rss" htmlUrl="http://feeds.nature.com/ncomms/rss/current"/>
+            xmlUrl="https://www.nature.com/subjects/computational-biology-and-bioinformatics/ncomms.rss" htmlUrl="https://www.nature.com/subjects/computational-biology-and-bioinformatics/ncomms"/>
       <outline text="Nature Communications - Microbiology" title="Nature Communications - Microbiology" type="rss" 
             xmlUrl="https://www.nature.com/subjects/microbiology/ncomms.rss" htmlUrl="https://www.nature.com/subjects/microbiology/ncomms"/>
       <outline text="Nature Communications - Biotechnology" title="Nature Communications - Biotechnology" type="rss" 
             xmlUrl="https://www.nature.com/subjects/biotechnology/ncomms.rss" htmlUrl="https://www.nature.com/subjects/biotechnology/ncomms"/>
+      <outline text="Nature Computational Science" title="Untitled feed" type="rss" 
+            xmlUrl="https://www.nature.com/natcomputsci.rss" htmlUrl="http://feeds.nature.com/natcomputsci/rss/current"/>
       <outline text="Nature Methods" title="Nature Methods" type="rss" 
             xmlUrl="https://www.nature.com/nmeth.rss" htmlUrl="http://feeds.nature.com/nmeth/rss/current"/>
       <outline text="Nature Microbiology" title="Nature Microbiology" type="rss" 
@@ -52,5 +58,7 @@
             xmlUrl="https://www.science.org/action/showFeed?type=etoc&amp;feed=rss&amp;jc=sciadv" htmlUrl="https://www.science.org/loi/sciadv?af=R"/>
       <outline text="Trends in Biotechnology" title="Trends in Biotechnology" type="rss" 
             xmlUrl="http://www.cell.com/trends/microbiology/current.rss" htmlUrl="https://www.cell.com/current?publicationCode=timi&amp;rss=yes"/>
+      <outline text="Trends in Microbiology" title="Trends in Microbiology" type="rss" 
+            xmlUrl="https://www.cell.com/trends/microbiology/inpress.rss" htmlUrl="https://www.cell.com/archive?publicationCode=timi&amp;rss=yes"/>
 </body>
 </opml>
