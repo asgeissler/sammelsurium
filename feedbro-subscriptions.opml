@@ -5,7 +5,7 @@
 </head>
 <body>
       <outline text="Annual Review of Microbiology" title="Annual Review of Microbiology" type="rss" 
-            xmlUrl="https://www.annualreviews.org/action/showFeed?ui=45mu4&amp;mi=3fndc3&amp;ai=sn&amp;jc=micro&amp;type=etoc&amp;feed=atom" htmlUrl="https://www.annualreviews.org/loi/micro?ai=sn&amp;mi=3fndc3&amp;af=A"/>
+            xmlUrl="https://www.annualreviews.org/action/showFeed?ui=45mu4&amp;mi=3fndc3&amp;ai=sn&amp;jc=micro&amp;type=etoc&amp;feed=atom" htmlUrl="https://www.annualreviews.org/content/journals/micro?TRACK=RSS"/>
       <outline text="Biotechnology Advances" title="Biotechnology Advances" type="rss" 
             xmlUrl="https://rss.sciencedirect.com/publication/science/07349750" htmlUrl="https://www.sciencedirect.com/journal/biotechnology-advances"/>
       <outline text="Critical Reviews in Biotechnology" title="Critical Reviews in Biotechnology" type="rss" 
@@ -26,6 +26,8 @@
             xmlUrl="https://www.frontiersin.org/journals/microbiology/rss" htmlUrl="https://www.frontiersin.org/journals/microbiology"/>
       <outline text="GigaScience Current Issue" title="GigaScience Current Issue" type="rss" 
             xmlUrl="https://academic.oup.com/rss/site_5589/3462.xml" htmlUrl="http://academic.oup.com/gigascience"/>
+      <outline text="Journal of Open Source Software" title="Journal of Open Source Software" type="rss" 
+            xmlUrl="https://joss.theoj.org/papers/published.atom" htmlUrl="https://joss.theoj.org"/>
       <outline text="Microbial Biotechnology" title="Microbial Biotechnology" type="rss" 
             xmlUrl="https://ami-journals.onlinelibrary.wiley.com/feed/17517915/most-recent" htmlUrl="https://enviromicro-journals.onlinelibrary.wiley.com/journal/17517915?af=R"/>
       <outline text="Microbial Cell Factories" title="Most Recent Articles: Microbial Cell Factories" type="rss" 
