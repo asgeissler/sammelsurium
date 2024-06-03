@@ -52,6 +52,8 @@
             xmlUrl="https://www.nature.com/nmicrobiol.rss" htmlUrl="http://feeds.nature.com/nmicrobiol/rss/current"/>
       <outline text="Nucleic Acids Research" title="Nucleic Acids Research Current Issue" type="rss" 
             xmlUrl="https://academic.oup.com/rss/site_5127/3091.xml" htmlUrl="http://academic.oup.com/nar"/>
+      <outline text="PNAS" title="PNAS" type="rss" 
+            xmlUrl="https://www.pnas.org/action/showFeed?type=etoc&amp;feed=rss&amp;jc=PNAS" htmlUrl="https://www.pnas.org/loi/pnas?af=R"/>
       <outline text="PLOS Computational Biology" title="PLOS Computational Biology" type="rss" 
             xmlUrl="https://journals.plos.org/ploscompbiol/feed/atom" htmlUrl="https://journals.plos.org/ploscompbiol/"/>
       <outline text="Science" title="AAAS: Science: Table of Contents" type="rss" 
