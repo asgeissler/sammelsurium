@@ -46,10 +46,16 @@
             xmlUrl="https://www.nature.com/subjects/biotechnology/ncomms.rss" htmlUrl="https://www.nature.com/subjects/biotechnology/ncomms"/>
       <outline text="Nature Computational Science" title="Untitled feed" type="rss" 
             xmlUrl="https://www.nature.com/natcomputsci.rss" htmlUrl="http://feeds.nature.com/natcomputsci/rss/current"/>
+      <outline text="Nature Metagenomics Portfolio" title="Nature Metagenomics portfolio" type="rss" 
+            xmlUrl="https://www.nature.com/subjects/metagenomics.rss" htmlUrl="https://www.nature.com/subjects/metagenomics"/>
       <outline text="Nature Methods" title="Nature Methods" type="rss" 
             xmlUrl="https://www.nature.com/nmeth.rss" htmlUrl="http://feeds.nature.com/nmeth/rss/current"/>
       <outline text="Nature Microbiology" title="Nature Microbiology" type="rss" 
             xmlUrl="https://www.nature.com/nmicrobiol.rss" htmlUrl="http://feeds.nature.com/nmicrobiol/rss/current"/>
+      <outline text="Nature Reviews Genetics" title="nature reviews genetics" type="rss" 
+            xmlUrl="https://www.nature.com/nrg.rss" htmlUrl="http://feeds.nature.com/nrg/rss/current"/>
+      <outline text="Nature Reviews Microbiology" title="Nature reviews microbiology" type="rss" 
+            xmlUrl="https://www.nature.com/nrmicro.rss" htmlUrl="http://feeds.nature.com/nrmicro/rss/current"/>
       <outline text="Nucleic Acids Research" title="Nucleic Acids Research Current Issue" type="rss" 
             xmlUrl="https://academic.oup.com/rss/site_5127/3091.xml" htmlUrl="http://academic.oup.com/nar"/>
       <outline text="PNAS" title="PNAS" type="rss" 
