@@ -12,12 +12,13 @@ Install [homebrew](https://brew.sh/) with
 
 Additional nice to have things that require extra taps:
 
-        # excellent font for coding
-        brew tap homebrew/cask-fonts
-        brew install font-fira-sans font-fira-code
         # sshfs: Mounting via ssh
         brew tap macos-fuse-t/homebrew-cask
         brew install fuse-t fuse-t-sshfs
+        # Manage R installatino with rig for improved version control
+        brew tap r-lib/rig
+        brew install --cask rig
+        rig install
 
 
 
@@ -31,6 +32,12 @@ for use in conda/mama:
 The packages installed by both approaches are the same, see:
 
         diff -y <(grep ' *-' R_conda.yml | sed 's,^ *- [rbioconductor]*-,,g' | sort ) <( grep "^ *'" R_install-packages.R | sed "s,[' ,],,g" | tr '[:upper:]' '[:lower:]' | sort )
+
+
+
+
+
+
 
 ### Mac OS Silicon
 

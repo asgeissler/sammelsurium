@@ -1,6 +1,7 @@
 # List of various tools from homebrew
 
 # Nice to have on a Mac
+brave-browser
 firefox
 iterm2
 rectangle
@@ -14,6 +15,10 @@ zotero
 zoom
 xquartz
 
+# excellent font for coding
+font-fira-sans
+font-fira-code
+
 # helpers for downloading from the net
 axel
 curl
@@ -24,13 +29,11 @@ cowsay
 fortune
 
 # Handy tools for editing and working with documents
-diff-pdf
 emacs
 icdiff
 languagetool
 mactex
 omnidisksweeper
-pdfsam-basic
 tree
 vim
 yed
@@ -40,26 +43,6 @@ bat
 openjdk
 pandoc
 quarto
-r
 rstudio
 visual-studio-code
 
-
-# Needed for various dependencies of R packages that I like
-#coin-or-tools/coinor/symphony
-cmake
-curlcpp
-curlpp
-fmt
-fribidi
-guile
-imagemagick
-libgit2
-librsvg
-libsolv
-libxml2
-llvm
-node
-reproc
-xml2
-yaml-cpp

@@ -1,4 +1,4 @@
-install.packages('BiocManager')
+# pak package is implicitly already installed when using `rig`
 
 xs <- c(
   # My bare minimum
@@ -7,6 +7,8 @@ xs <- c(
   'devtools',
   'formatR',
   'lintr',
+  'jsonlite',
+  'renv',
   'roxygen2',
   'tidyverse',
   'languageserver',
@@ -45,12 +47,13 @@ xs <- c(
   'kableExtra',
   'systemfonts',
   'xaringan',
+  'webshot2',
   # For collaborators
   'readxl',
   # Working with Genomic sequences and annotations
   'Biostrings',
   'BSgenome',
-  'genbankr',
+  #'genbankr',
   'GenomeInfoDbData',
   'msa',
   'rtracklayer',
@@ -63,6 +66,7 @@ xs <- c(
   'pathview',
   'IHW',
   'clusterProfiler',
+  'enrichplot',
   'ReportingTools',
   'RUVSeq',
   'stageR',
@@ -75,6 +79,7 @@ xs <- c(
   'tidygraph',
   'ggraph',
   'networkD3',
+  'RCy3', # interacts with cytoscape
   'WGCNA',
   # Regression / ML stuff
   'broom',
@@ -93,20 +98,10 @@ xs <- c(
   'rentrez'
 )
 
-#BiocManager::install(xs, type = 'mac.binary')
-BiocManager::install(xs)
+# pak somehow fails when installing all at the same time with the dependencies
+#pak::pkg_install(xs)
 
-
-# Make sure everything is really up todate
-#BiocManager::install(type = 'mac.binary')
-BiocManager::install()
-
-
-# Temporary fix for 'systemfonts':
-#withr::with_makevars(c(OBJCXX = "gcc"), install.packages('systemfonts'))
-
-
-# Memo for lpsymphony
-# brew tap coin-or-tools/coinor
-# brew install coin-or-tools/coinor/symphony
-# devtools::install_github("vladchimescu/lpsymphony")
+# Install individually, I guess
+for (i in xs) {
+  pak::pkg_install(i)
+}
