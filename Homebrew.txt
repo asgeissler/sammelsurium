@@ -24,10 +24,6 @@ axel
 curl
 wget
 
-# For adding light welcoming messages
-cowsay
-fortune
-
 # Handy tools for editing and working with documents
 emacs
 icdiff
@@ -40,6 +36,7 @@ yed
 
 # For coding
 bat
+cookiecutter
 openjdk
 pandoc
 quarto
