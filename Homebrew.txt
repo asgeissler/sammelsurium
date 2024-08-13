@@ -15,6 +15,9 @@ zotero
 zoom
 xquartz
 
+# easy to use LLMs
+ollama
+
 # excellent font for coding
 font-fira-sans
 font-fira-code
