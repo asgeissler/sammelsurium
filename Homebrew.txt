@@ -17,6 +17,7 @@ xquartz
 
 # easy to use LLMs
 ollama
+ollamac
 
 # excellent font for coding
 font-fira-sans
