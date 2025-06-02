@@ -46,7 +46,6 @@ gh
 micromamba
 openjdk
 node
-rig
 
 # Neat integrated development environments
 rstudio
