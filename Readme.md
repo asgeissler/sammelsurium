@@ -19,31 +19,9 @@ Additional nice to have things that require extra taps:
 
 
 
-# R installation(R_conda.yml, R_install-packages.R)
+# R installation
 
-List of packages that I like to use in R either via R's own package manager, or
-for use in conda/mama:
-
-        mamba env create --file R_conda.yml
-
-The packages installed by both approaches are the same, see:
-
-        diff -y <(grep ' *-' R_conda.yml | sed 's,^ *- [rbioconductor]*-,,g' | sort ) <( grep "^ *'" R_install-packages.R | sed "s,[' ,],,g" | tr '[:upper:]' '[:lower:]' | sort )
-
-
-
-
-
-
-
-### Mac OS Silicon
-
-State October 2023, bioconda does not yet support the silicon (M1/M2) CPU
-architecture. However, the conda environment can still be used with:
-
-        CONDA_SUBDIR=osx-64 mamba env create --file R_conda.yml
-        mamba activate arr
-        conda config --env --set subdir osx-64
+        Rscript R_install-packages.R
 
 ## R_rabbit-duck
 

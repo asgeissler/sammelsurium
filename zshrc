@@ -13,9 +13,6 @@
 # /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 
 
-# Show a welcome message
-#fortune -s | cowthink -e "oO"
-
 # Enable Powerlevel10k instant prompt. Should stay close to the top of ~/.zshrc.
 # Initialization code that may require console input (password prompts, [y/n]
 # confirmations, etc.) must go above this block; everything else may go below.
@@ -28,18 +25,7 @@ fi
 export BAT_THEME="OneHalfLight"
 
 ##############################################################################
-# Helper function to start RStudio from a conda installation
-# (I like name name my R env 'arr', rename as needed)
-function myr() {
-    conda activate arr
-    /usr/local/Caskroom/mambaforge/base/envs/arr/bin/rstudio &
-    #/usr/local/Caskroom/miniconda/base/envs/arr/bin/rstudio &
-}
-
-##############################################################################
 # normal stuff
-
-HOMEBREW_GITHUB_API_TOKEN=PRIVATE_USE_YOUR_OWN_HERE
 
 alias ll='ls -l -G -h'
 alias iso='date +%Y_%m_%d'
