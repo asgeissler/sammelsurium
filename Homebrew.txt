@@ -1,49 +1,69 @@
-# List of various tools from homebrew
+# List of Homebrew packages to install on a new Mac
 
-# Nice to have on a Mac
-brave-browser
-firefox
+# Absolutely essential terminal tool
 iterm2
-rectangle
-github
-mac-mouse-fix
-mambaforge
-microsoft-teams
-obsidian
+
+# For managing passwords, mails, secure notes, etc
+proton-drive
+proton-mail
+proton-mail-bridge
+proton-pass
+protonvpn
 signal
-zotero
-zoom
+standard-notes
+
+# RSS feed reader
+netnewswire
+
+# For videos
+iina
+yt-dlp
+
+# Miscellaneous
+chatgpt
 xquartz
 
-# easy to use LLMs
-ollama
-ollamac
-
-# excellent font for coding
-font-fira-sans
-font-fira-code
-
-# helpers for downloading from the net
-axel
-curl
-wget
-
-# Handy tools for editing and working with documents
+# For file management
+bat
 emacs
 icdiff
-languagetool
-mactex
 omnidisksweeper
+rsyncui
 tree
 vim
+
+# Handy tools for editing and working with documents
+jabref
+mactex-no-gui
+pandoc
+quarto
 yed
 
 # For coding
-bat
-cookiecutter
+awscli
+github
+gh
+micromamba
 openjdk
-pandoc
-quarto
+node
+rig
+
+# Neat integrated development environments
 rstudio
 visual-studio-code
+# For more supported lanuages in vscode
+languagetool
 
+# Virtualization and containerization
+docker
+utm
+rancher
+
+# Excellent font for coding
+font-fira-sans
+font-fira-code
+
+# Helpers for downloading from the net
+axel
+curl
+wget
