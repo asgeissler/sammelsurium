@@ -12,9 +12,6 @@ Install [homebrew](https://brew.sh/) with
 
 Additional nice to have things that require extra taps:
 
-        # sshfs: Mounting via ssh
-        brew tap macos-fuse-t/homebrew-cask
-        brew install fuse-t fuse-t-sshfs
         # Manage R installatino with rig for improved version control
         brew tap r-lib/rig
         brew install --cask rig
