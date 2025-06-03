@@ -7,6 +7,7 @@
 <body>
 	<outline text="Annual Review of Microbiology: Most Recent Articles" title="Annual Review of Microbiology: Most Recent Articles" description="" type="rss" version="RSS" htmlUrl="https://www.annualreviews.org/content/journals/micro?TRACK=RSS" xmlUrl="https://www.annualreviews.org/action/showFeed?ui=45mu4&amp;mi=3fndc3&amp;ai=sn&amp;jc=micro&amp;type=etoc&amp;feed=atom"/>
 	<outline text="Bioinformatics Advances Current Issue" title="Bioinformatics Advances Current Issue" description="" type="rss" version="RSS" htmlUrl="http://academic.oup.com/bioinformaticsadvances" xmlUrl="https://academic.oup.com/rss/site_6382/4105.xml"/>
+	<outline text="Blog: Better than Random" title="Blog: Better than Random" description="" type="rss" version="RSS" htmlUrl="https://betterthanrandom.substack.com/" xmlUrl="https://betterthanrandom.substack.com/feed"/>
 	<outline text="Blog: Eugene Yan" title="Blog: Eugene Yan" description="" type="rss" version="RSS" htmlUrl="https://eugeneyan.com/" xmlUrl="https://eugeneyan.com/rss/"/>
 	<outline text="Blog: John D. Cook" title="Blog: John D. Cook" description="" type="rss" version="RSS" htmlUrl="https://www.johndcook.com/blog" xmlUrl="https://www.johndcook.com/blog/feed/"/>
 	<outline text="Blog: Paired Ends" title="Blog: Paired Ends" description="" type="rss" version="RSS" htmlUrl="https://blog.stephenturner.us/" xmlUrl="https://blog.stephenturner.us/feed"/>
