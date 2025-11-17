@@ -141,3 +141,38 @@ source $ZSH/oh-my-zsh.sh
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 
 ##############################################################################
+
+# helper for working with git repos and worktrees
+gitproject() {
+  local DIR="$1"
+  local URL="$2"
+
+  if [[ -z "$DIR" || -z "$URL" ]]; then
+    echo "Usage: gitproject <directory> <repo-url>"
+    return 1
+  fi
+
+  mkdir -p "$DIR"
+  cd "$DIR"
+
+  git clone --bare "$URL" .bare
+  echo "gitdir: ./.bare" > .git
+  git config remote.origin.fetch "+refs/heads/*:refs/remotes/origin/*"
+  git fetch
+  git worktree add main
+  git branch --set-upstream-to=origin/main main
+}
+
+gitree() {
+  local BRANCH="$1"
+
+  if [[ -z "$DIR" || -z "$URL" ]]; then
+    echo "Usage: gitree <branch>"
+    return 1
+  fi
+
+  git worktree add $BRANCH
+  git branch --set-upstream-to=origin/$BRANCH $BRANCH
+}
+
+##############################################################################
