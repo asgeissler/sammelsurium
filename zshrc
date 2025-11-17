@@ -171,6 +171,7 @@ gitree() {
     return 1
   fi
 
+  git fetch
   git worktree add $BRANCH
   git branch --set-upstream-to=origin/$BRANCH $BRANCH
 }
