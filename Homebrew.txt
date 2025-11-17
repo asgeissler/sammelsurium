@@ -21,6 +21,7 @@ yt-dlp
 
 # Miscellaneous
 chatgpt
+vivaldi
 xquartz
 
 # For file management
@@ -41,11 +42,13 @@ yed
 
 # For coding
 awscli
+cyberduck
 github
 gh
 micromamba
-openjdk
 node
+openjdk
+sourcetree
 
 # Neat integrated development environments
 rstudio
