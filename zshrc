@@ -166,7 +166,7 @@ gitproject() {
 gitree() {
   local BRANCH="$1"
 
-  if [[ -z "$DIR" || -z "$URL" ]]; then
+  if [[ -z "$BRANCH" ]]; then
     echo "Usage: gitree <branch>"
     return 1
   fi
